@@ -91,7 +91,9 @@
     }
 
     .hero img{
-        width:420px;
+        border-radius: 20px;
+        width:500px;
+        object-fit: cover;
         max-width:100%;
     }
 
