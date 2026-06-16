@@ -225,6 +225,14 @@
         margin-top:50px;
     }
 
+    .footer-contact{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+
 @media(max-width:900px){
 
     .hero{
@@ -234,6 +242,11 @@
 
     .hero-text h1{
        font-size:42px;
+    }
+
+    .footer-contact{
+        flex-direction: column;
+        gap: 10px;
     }
 
     }
